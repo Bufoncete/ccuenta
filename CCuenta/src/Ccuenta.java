@@ -14,6 +14,10 @@ public class Ccuenta {
 		tipoInteres = tipo;
 	}
 
+	public String getNombre() {
+		return nombre;
+	}
+
 	public double getSaldo() {
 		return saldo;
 	}
